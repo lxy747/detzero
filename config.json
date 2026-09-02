@@ -1,0 +1,28 @@
+{
+    "tools_config": {
+        "generate_annos_with_detzero": {
+            "calib_file": "/mnt/motovis/101_TestData/sunchaoTest/detzero/calibration.yml",
+            "detection_ckpt": "auto",
+            "diffubox": 0,
+            "lidar_name": "lidar_hs_pan128_middle",
+            "lidar_root": "/mnt/motovis/101_TestData/sunchaoTest/detzero/output/lidar_hs_pan128_middle/las/",
+            "od_infer": 1,
+            "output_dir": "/mnt/motovis/101_TestData/sunchaoTest/detzero/temp_dir/generate_annos_with_detzero/",
+            "refining": 0,
+            "tracking": 0,
+            "trajectory_file": "/mnt/motovis/101_TestData/sunchaoTest/detzero/output/raw/pose_ori/pose.txt",
+            "workspace": "/mnt/motovis/101_TestData/sunchaoTest/detzero/",
+            "parse_dir": "output"
+        },
+        "toolsRunMsg": [
+            {
+                "toolName": "generate_annos_with_detzero",
+                "startTime": "2026-04-10 14:22:37",
+                "endTime": "2026-04-10 14:22:39",
+                "success": true,
+                "errMsg": null
+            }
+        ]
+    },
+    "version": "v1.0"
+}
