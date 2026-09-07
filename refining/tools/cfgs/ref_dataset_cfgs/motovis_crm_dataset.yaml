@@ -1,0 +1,17 @@
+DATASET: 'MotovisConfidenceDataset'
+DATA_PATH: '/data/dataset/ontime/refining'
+
+DATA_SPLIT: {
+    'train': train,
+    'test': val
+}
+
+QUERY_NUM: 200
+QUERY_NUM_TRAIN: 50
+QUERY_POINTS_NUM: 256
+
+ENCODING: ['xyz', 'p2co', 'score']
+
+AUGMENTOR:
+    AUGMENT_SINGLE: True
+    AUGMENT_ALL: True
